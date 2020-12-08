@@ -1,0 +1,7 @@
+.sombra { box-shadow: 5px 7px 15px #84A9C2; }
+.parpadeo { animation: blink 1s infinite alternate; }
+
+@keyframes blink {
+	from { opacity: 1; color: black; }
+	to { opacity: 0; color: red; }
+}
